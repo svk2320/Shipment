@@ -23,7 +23,7 @@
 <body id="top">
 
     <!-- header -->
-    <header data-header>
+    <header class="header" data-header>
         <div class="container">
             <h1>
                 <a href="#" class="logo">Shipment</a>
@@ -40,31 +40,31 @@
 
                 <ul class="navbar-list">
                     <li class="navbar-item">
-                        <a href="#home" class="navbar-link">
+                        <a href="#home" class="navbar-link" data-nav-link>
                             <span>Home</span>
                             <ion-icon name="chevron-forward"></ion-icon>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#about" class="navbar-link">
+                        <a href="#about" class="navbar-link" data-nav-link>
                             <span>About</span>
                             <ion-icon name="chevron-forward"></ion-icon>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#service" class="navbar-link">
+                        <a href="#service" class="navbar-link" data-nav-link>
                             <span>Service</span>
                             <ion-icon name="chevron-forward"></ion-icon>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#blog" class="navbar-link">
+                        <a href="#blog" class="navbar-link" data-nav-link>
                             <span>Blog</span>
                             <ion-icon name="chevron-forward"></ion-icon>
                         </a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#contact" class="navbar-link">
+                        <a href="#contact" class="navbar-link" data-nav-link>
                             <span>Contact</span>
                             <ion-icon name="chevron-forward"></ion-icon>
                         </a>
@@ -87,9 +87,17 @@
                 <ion-icon name="menu-outline"></ion-icon>
             </button>
 
-            <div class="overlay" data-nav-toggler data-overly></div>
+            <div class="overlay" data-nav-toggler data-overlay></div>
         </div>
     </header> <!-- end of header -->
-    
+
+
+
+  <!-- custom js link -->
+  <script src="script.js" defer></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
